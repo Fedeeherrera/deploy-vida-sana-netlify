@@ -1,0 +1,272 @@
+:root{
+  --color-text-primary: #AB29CA;
+  --color-text-secundary: #101e2c;
+  --color-text-tertiary: #0e3d08;
+  --main-color-primary: #17610e;
+  --main-color-secundary: #30d41b;
+  --background-color: #fafbfe;
+  --low-text: 16px;
+  --text-size-title:40px;
+  --text-title-card: 24px;
+  --text-title-card2: 20px;
+  --text-paragraph: 16px;
+  --box-shadow-primary: 0px 6px 50px -20px rgba(0,0,0,0.2);
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+  color: black;
+}
+
+
+
+
+
+.cover{
+  padding: 70px 0px;
+  background-image: url('/src/Home/Img/fondoverde.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+}
+
+.coverSig{
+  margin: auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+
+}
+
+.text-cover{
+  width: 100%;
+  padding-right: 150px;
+  margin-top: 50px;
+}
+
+.text-cover h1{
+  padding-left: 50px;
+  font-size: 50px;
+  color: white;
+  width: 450px;
+}
+
+.text-cover p{
+  padding-left: 50px;
+  width: 450px;
+  font-size: var(--text-paragraph);
+  margin-top: 40px;
+  color: rgba(255, 255, 255, 0.747);
+}
+
+
+
+
+
+.btn-cover{  
+  margin-left: 50px;
+  display: block;
+  width: 200px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  background: var(--main-color-primary);
+  border-radius: 8px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  letter-spacing: 1px;
+  transition: all 300ms;
+  
+}
+
+.btn-cover:hover{
+  background-color: transparent;
+  border: 2px solid var(--main-color-primary);
+  color: var(--main-color-primary);
+}
+
+.img-cover{
+  width: 100%;
+  margin: auto;
+  margin-bottom: 75px;
+}
+
+.img-cover img{
+  width: 500px;
+  margin: auto;
+}
+
+
+
+
+/* ----------------- */
+
+#cardPrincipal{
+  background-color: #15580c;
+ 
+}
+
+#cardPrincipal h2{
+  color: white;
+}
+#cardPrincipal p{
+  color: white;
+}
+
+
+.container-cardp{
+  
+  background-color: white;
+}
+
+.card-primary{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 50px;
+  text-align: center;
+}
+
+.text-cardprimary{
+  max-width: 800px;
+  margin: auto;
+}
+
+.text-cardprimary p{
+  color: var(--main-color-primary);
+  letter-spacing: 4px;
+  font-size: var(--text-paragraph);
+  font-weight: 500;
+}
+
+.text-cardprimary h2{
+  font-size: var(--text-size-title);
+  font-weight: 600;
+  color: var(--color-text-secundary);
+}
+
+.container-box-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+  
+}
+
+.box-card-primary{
+  max-width: 250px;
+  padding: 50px 40px;
+  border: 1px solid #e6e6e6;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  margin: 24px;
+  transition: all 300ms;
+  color: black;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.281);
+}
+.box-card-primary:hover{
+  border: 1px solid transparent;
+  box-shadow: var(--box-shadow-primary);
+  background-color: rgba(0, 0, 0, 0.116);
+  
+}
+
+.box-card-primary h2{
+  font-size: var(--text-title-card);
+  margin-top: 40px;
+  font-weight: 500;
+  color: black;
+}
+
+.box-card-primary p{
+  margin-top: 20px;
+  font-weight: 400;
+  color: black;
+}
+
+
+
+
+.box-card-primary img{
+  max-width: 40%;
+  margin: auto;
+}
+
+.container-about{
+  padding: 100px 0px;
+  background-color: var(--background-color);
+  margin-top: 100px;
+}
+
+.about{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+  gap: 30px;
+}
+
+.text-about{
+  width: 100%;
+  
+}
+
+.text-about h2{
+  color: var(--color-text-secundary);
+  font-weight: 600;
+  font-size: var(--text-size-title);
+  padding-left: 50px;
+}
+
+.text-about p{
+  font-size: var(--text-paragraph);
+  margin-top: 40px;
+  color: var(--color-text-tertiary);
+  padding-left: 50px;
+}
+
+.img-about{
+  width: 800px;
+  height: 350px;
+  display: flex;
+  background-color: #0e3d08;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.281);
+}
+
+.img-about img{
+  width: 400px;
+  display: flex;
+  justify-content:  center;
+  margin: auto;
+  
+
+}
+
+.botonesPag{
+  display: flex;
+}
+#secundario{
+  color: var(--main-color-primary);
+  background-color: transparent;
+  border: 2px solid var(--main-color-primary)
+}
+
+#secundario:hover{
+  color: white;
+  background-color: var(--main-color-primary);
+  border: 2px solid var(--main-color-primary)
+}
