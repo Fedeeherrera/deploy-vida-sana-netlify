@@ -8,7 +8,7 @@ function Header () {
 
         <div className="container-header">
           <div className="logo">
-          <Link to="/Home"><img src='./src/components/img/logoPropio.png' alt="Logo" className='logo header_a' /></Link>
+          <Link to="/Home"><img src='https://res.cloudinary.com/dz9d8qmcv/image/upload/v1722612203/mxxt04oii3vfofwaygmq.png' alt="Logo" className='logo header_a' /></Link>
             <h2>Vida Natural</h2>
           </div>
           <div className="menu">
@@ -23,14 +23,14 @@ function Header () {
             <Link className='header_a btn-login' to="/">Login</Link>
             <div className="socialMedia">
               <a href="">
-                <img src="./src/components/img/facebook.png" alt="" />
+                <img src="https://res.cloudinary.com/dz9d8qmcv/image/upload/v1722612203/losn50gzheoigctxtf2z.png" alt="" />
               </a>
               <a href="">
-                <img src="./src/components/img/instagram.png" alt="" />
+                <img src="https://res.cloudinary.com/dz9d8qmcv/image/upload/v1722612203/y2mqcoiejprujumbnyd9.png" alt="" />
               </a>
 
               <a href="">
-                <img src="./src/components/img/twitter.png" alt="" />
+                <img src="https://res.cloudinary.com/dz9d8qmcv/image/upload/v1722612203/tvjgn911g6k9ihgrihau.png" alt="" />
               </a>
             </div>
 

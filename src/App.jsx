@@ -19,7 +19,6 @@ function App () {
           <Route path='/contaminacion' element={<Contaminacion />} />
           <Route path='/donaciones' element={<Donaciones />} />
         </Routes>
-        <Footer />
       </BrowserRouter>
 
     </>
