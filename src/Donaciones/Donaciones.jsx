@@ -107,13 +107,6 @@ function Donaciones () {
 
           return (
             <li className="card" key={persona.idPersona}>
-              {longitudDonaciones > 0
-                ? (
-                  <h2 className="multiplicador_donaciones">x{longitudDonaciones}</h2>
-                  )
-                : (
-                  <h2 className="hidden"></h2>
-                  )}
               <Imagenn />
               <h2 className="h2">{persona.nombreApellido}</h2>
               <h3 className="h3">
